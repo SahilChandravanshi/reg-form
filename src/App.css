@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #b3b8bd;
+}
+
+form {
+	background-color: #231e39;
+	border: 1px solid #2D2747;
+	border-radius: 10px;
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.field {
+	/* border: 1px solid red; */
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mb-3 {
+	/* border: 1px solid red; */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mb-3 textarea{
+  height: 8rem;
+  width: 19.5rem;
+	background-color: #b3b8bd;
+}
+
+.interests{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction:column;
+  gap: 0.2rem;
+  margin-bottom: 1.5rem; 
+}
+
+.interests  p{
+  text-align: center;
+}
+
+.interests_fields{
+  display: flex;
+  /* border: 1px solid red; */
+ gap: 2rem; 
+}
+
+input{
+	background-color: #b3b8bd;
+	border: 2px solid #1f1a36;
+	border-radius: 5px;
+	padding: 2px;
+}
