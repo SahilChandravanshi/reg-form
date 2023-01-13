@@ -20,8 +20,8 @@ body {
 
 form {
 	background-color: #231e39;
-	border: 1px solid #2D2747;
-	border-radius: 10px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	border-radius: 5px;
 	display: inline-block;
 	/* border: 1px solid red; */
 	width: 50vw;
@@ -29,6 +29,7 @@ form {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 2.5rem;
 }
 
 .field {
@@ -48,7 +49,7 @@ form {
 }
 
 .mb-3 textarea{
-  height: 8rem;
+  height: 6rem;
   width: 19.5rem;
 	background-color: #b3b8bd;
 }
@@ -72,8 +73,22 @@ form {
 }
 
 input{
-	background-color: #b3b8bd;
-	border: 2px solid #1f1a36;
+	background-color: #1f1a36;
+	color: white;
+	border: 1px solid #03bfcb;
 	border-radius: 5px;
 	padding: 2px;
+}
+
+form h1{
+	font-size: 1.7rem;
+	margin: 1rem;
+}
+
+.select{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin: 1rem;
 }

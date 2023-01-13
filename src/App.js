@@ -214,7 +214,7 @@ function App() {
         <button className="fluid ui button blue primary">Submit</button>
       </form>
 
-      <Profile formValues={formValues} />
+      {/* <Profile formValues={formValues} /> */}
       
     </div>
   );
