@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Profile.css";
 
-export default function Profile(props) {
+const Profile = (props) => {
   return (
     <>
       <div class="card-container">
@@ -13,7 +13,7 @@ export default function Profile(props) {
         <p>{props.formValues.about}</p>
         <div class="buttons">
           <button class="primary ghost">
-          Email: {props.formValues.email}
+            Email: {props.formValues.email}
           </button>
           <p> Contact: {props.formValues.contact}</p>
         </div>
@@ -28,3 +28,5 @@ export default function Profile(props) {
     </>
   );
 }
+
+export default Profile;
