@@ -10,11 +10,12 @@ export default function Profile(props) {
           ${props.formValues.lastName}
           `}</h3>
         <h6>New York</h6>
-        <p>User interface designer and <br /> front-end developer</p>
+        <p>{props.formValues.about}</p>
         <div class="buttons">
           <button class="primary ghost">
           Email: {props.formValues.email}
           </button>
+          <p> Contact: {props.formValues.contact}</p>
         </div>
         <div class="skills">
           <h6>Other Details</h6>
